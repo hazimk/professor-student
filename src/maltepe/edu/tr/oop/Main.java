@@ -21,12 +21,12 @@ public class Main {
         obj2.setstu_ID(19222);
         System.out.println(obj2.getstu_ID());
 
-        System.out.println("hfjj");
+        System.out.println("khalil");
 
         obj1.setPro_ID(123456);
         System.out.println(obj1.getpro_ID());
 
 
-
+        //System.out.println("");
     }
 }

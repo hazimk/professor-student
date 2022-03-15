@@ -2,6 +2,9 @@ package maltepe.edu.tr.oop;
 
 public class Student {
 
+    public Student() {
+
+    }
     private int stu_ID;
 
 

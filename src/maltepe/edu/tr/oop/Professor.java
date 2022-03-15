@@ -1,8 +1,10 @@
 package maltepe.edu.tr.oop;
 
 public class Professor extends Person {
+    public Professor() {
 
-  private int pro_ID;
+    }
+        private int pro_ID;
 
 
  public void setPro_ID (int pi) {

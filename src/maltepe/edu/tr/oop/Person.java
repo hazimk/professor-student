@@ -2,6 +2,9 @@ package maltepe.edu.tr.oop;
 
 public class Person {
 
+    public Person() {
+
+    }
    private String stu_name;
    private String pro_name;
 
