@@ -2,7 +2,9 @@ package maltepe.edu.tr.oop;
 
 public class Main {
 
-    public static void main(String[] args) {
+
+
+    public void main(String[] args) {
         Person obj0 = new Person();
         Professor obj1 = new Professor();
         Student obj2 = new Student();
@@ -18,6 +20,8 @@ public class Main {
 ////////////////////////////////////////////////////////////////
         obj2.setstu_ID(19222);
         System.out.println(obj2.getstu_ID());
+
+        System.out.println("hfjj");
 
         obj1.setPro_ID(123456);
         System.out.println(obj1.getpro_ID());
