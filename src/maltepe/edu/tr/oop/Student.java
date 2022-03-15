@@ -17,4 +17,8 @@ public class Student {
 
 
     }
+    void learns() {
+
+        System.out.println("prof"+stu_name+"is teaching now" )
+    }
 }

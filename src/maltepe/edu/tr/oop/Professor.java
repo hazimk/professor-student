@@ -15,6 +15,11 @@ public class Professor extends Person {
     return pro_ID;
 
   }
+
+    void teaches () {
+
+        System.out.println("prof"+pro_name+"is teaching now" )
+    }
   }
 
 
