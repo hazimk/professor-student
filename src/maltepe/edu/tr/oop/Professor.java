@@ -1,25 +1,54 @@
 package maltepe.edu.tr.oop;
 
-public class Professor extends Person {
+public class Professor extends Person implements Do_sport {
     public Professor() {
 
     }
-        private int pro_ID;
 
+    @Override
+    public void swim() {
 
- public void setPro_ID (int pi) {
-
-    pro_ID = pi;
-  }
-  public int getpro_ID() {
-    return pro_ID;
-
-  }
-
-    void teaches () {
-
-        System.out.println("prof"+pro_name+"is teaching now" )
     }
-  }
+
+    @Override
+    public void play_football() {
+
+    }
+
+//    public Professor(int pro_ID) {
+//        this.pro_ID = pro_ID;
+//    }
+
+//    private int pro_ID;
+//
+//    public int getPro_ID() {
+//        return pro_ID;
+//    }
+//
+//    public void setPro_ID(int pro_ID) {
+//        this.pro_ID = pro_ID;
+//    }
+//
+//    void teaches () {
+//
+//        System.out.println("prof"+"pro_name"+"is teaching now" );
+//    }
+//
+
+    @Override
+    public void swimming(String stud, Sportscenter sc) {
+
+    }
+
+    @Override
+    public void playingFootball(String stud, Sportscenter sc) {
+
+
+
+    }
+
+
+}
+
 
 

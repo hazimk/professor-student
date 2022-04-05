@@ -4,29 +4,37 @@ public class Main {
 
 
 
-    public void main(String[] args) {
-        Person obj0 = new Person();
+    public static void main(String[] args){
+        Person obj0 = new Person() {
+            @Override
+            public void swim() {
+
+            }
+
+            @Override
+            public void play_football() {
+
+            }
+
+            @Override
+            public void swimming(String prof, Sportscenter sc) {
+
+            }
+
+            @Override
+            public void playingFootball(String prof, Sportscenter sc) {
+
+            }
+        };
         Professor obj1 = new Professor();
         Student obj2 = new Student();
 
-
-     obj0.setName("ensar");
-     //obj0.getName();
-        System.out.println(obj0.getName());
-
-        obj0.setName1("hazem");
-        //obj0.getName1();
-        System.out.println(obj0.getName1());
-////////////////////////////////////////////////////////////////
-        obj2.setstu_ID(19222);
-        System.out.println(obj2.getstu_ID());
-
-        System.out.println("khalil");
-
-        obj1.setPro_ID(123456);
-        System.out.println(obj1.getpro_ID());
+       obj0.Speak();
+       obj2.Speak();
 
 
-        //System.out.println("");
+
+
+
     }
 }
